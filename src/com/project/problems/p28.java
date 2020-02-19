@@ -1,8 +1,6 @@
 package com.project.problems;
 
-import com.project.util.ProblemBase;
-
-import java.util.stream.IntStream;
+import com.project.base.ProblemBase;
 
 public class p28 extends ProblemBase {
 

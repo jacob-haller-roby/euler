@@ -1,7 +1,7 @@
 package com.project.problems;
 
 import com.project.util.CharArray;
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
 import java.util.ArrayList;
 import java.util.stream.IntStream;

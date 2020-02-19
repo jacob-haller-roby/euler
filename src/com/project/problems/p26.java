@@ -1,15 +1,13 @@
 package com.project.problems;
 
-import com.project.util.CharArray;
 import com.project.util.Primes;
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.HashMap;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.IntStream;
 
 public class p26 extends ProblemBase {
 

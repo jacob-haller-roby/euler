@@ -1,7 +1,7 @@
 package com.project.problems;
 
 import com.project.util.Fib;
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
 
 public class p2 extends ProblemBase {

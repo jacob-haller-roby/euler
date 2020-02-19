@@ -1,9 +1,7 @@
 package com.project.problems;
 
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
-import java.math.BigInteger;
-import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 public class p9 extends ProblemBase {

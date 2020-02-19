@@ -1,4 +1,7 @@
-package com.project.util;
+package com.project.base;
+
+import com.project.util.Primes;
+import com.project.util.Timer;
 
 public abstract class ProblemBase {
 

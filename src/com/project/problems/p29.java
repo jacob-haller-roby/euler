@@ -1,13 +1,10 @@
 package com.project.problems;
 
-import com.project.util.Primes;
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.IntStream;
-import java.util.stream.LongStream;
 
 public class p29 extends ProblemBase {
 

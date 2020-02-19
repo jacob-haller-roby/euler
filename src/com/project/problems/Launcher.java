@@ -1,6 +1,6 @@
 package com.project.problems;
 
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 import com.project.util.Timer;
 
 import java.util.Scanner;

@@ -1,6 +1,6 @@
 package com.project.problems;
 
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 import com.project.util.Rotations;
 
 public class p35 extends ProblemBase {

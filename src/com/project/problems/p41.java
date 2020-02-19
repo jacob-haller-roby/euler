@@ -1,14 +1,9 @@
 package com.project.problems;
 
-import com.project.util.Pandigital;
 import com.project.util.Permutations;
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
 import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Collections;
-import java.util.stream.Collectors;
-import java.util.stream.LongStream;
 
 public class p41 extends ProblemBase {
 

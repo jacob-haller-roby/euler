@@ -2,9 +2,8 @@ package com.project.problems;
 
 import com.project.util.CharArray;
 import com.project.util.File;
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.IntStream;

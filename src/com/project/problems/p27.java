@@ -1,6 +1,6 @@
 package com.project.problems;
 
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 import java.util.HashMap;
 import java.util.stream.LongStream;
 

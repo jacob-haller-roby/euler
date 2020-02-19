@@ -1,9 +1,8 @@
 package com.project.problems;
 
 import com.project.util.Pandigital;
-import com.project.util.ProblemBase;
+import com.project.base.ProblemBase;
 
-import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Set;
 
