@@ -41,7 +41,10 @@ public class Primes extends ArrayList<Long> {
     public ArrayList<Long> getPrimeFactors(Long number) {
         ArrayList<Long> result = new ArrayList<>();
 
-        if(isPrime(number)) return result;
+        if(isPrime(number)) {
+            result.add(number);
+            return result;
+        }
 
         Long test = number;
         Integer i = 0;
