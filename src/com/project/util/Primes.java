@@ -9,12 +9,17 @@ public class Primes extends ArrayList<Long> {
         super();
     }
 
+    public void fillBelow(int i) {
+        while(largestPrime() < i) getNextPrime();
+        pop();
+    }
+
     public Long getNextPrime() {
         Long value;
         if(isEmpty()) {
-            value = 2l;
+            value = 2L;
         } else {
-            value = this.get(this.size() - 1);
+            value = largestPrime();
             if(value % 2 == 0) {
                 value += 1;
             } else {
@@ -31,8 +36,10 @@ public class Primes extends ArrayList<Long> {
         if (test == 1) return false;
         while(Math.pow(this.largestPrime(),2) <= Math.abs(test) ) getNextPrime();
 
+        if(test == 2L) return true;
+
         Long value = this.stream()
-                .filter(i -> test % i == 0 || Math.pow(i,2) > Math.abs(test))
+                .filter(i -> (test % i == 0 && !test.equals(i)) || Math.pow(i,2) > Math.abs(test))
                 .findFirst()
                 .orElse(null);
         return test % value != 0;
@@ -47,7 +54,7 @@ public class Primes extends ArrayList<Long> {
         }
 
         Long test = number;
-        Integer i = 0;
+        int i = 0;
         while (test != 1) {
             if(i > size() - 1){
                 getNextPrime();
@@ -66,7 +73,7 @@ public class Primes extends ArrayList<Long> {
 
     public Long largestPrime() {
         if(isEmpty()) {
-            add(2l);
+            add(2L);
         }
         return get(size() - 1);
     }
