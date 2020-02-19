@@ -1,4 +1,4 @@
-package com.project.problems;
+package com.project.base;
 
 import com.project.base.ProblemBase;
 
