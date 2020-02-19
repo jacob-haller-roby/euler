@@ -1,5 +1,6 @@
 package com.project.problems;
 
+import com.project.util.Pandigital;
 import com.project.util.ProblemBase;
 
 import java.util.HashMap;
@@ -18,7 +19,7 @@ public class p32 extends ProblemBase {
                 if(string.length() > 10) {
                     break;
                 }
-                if(string.matches("(?:([1-9])(?!.*\\1)){9}")) {
+                if(Pandigital.isPandigital(string)) {
                     set.add(product);
                 }
             }
