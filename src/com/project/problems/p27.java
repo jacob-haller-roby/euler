@@ -1,19 +1,10 @@
 package com.project.problems;
 
-import com.project.util.Primes;
 import com.project.util.ProblemBase;
-import javafx.util.Pair;
-
-import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
-import java.util.stream.Collectors;
-import java.util.stream.IntStream;
 import java.util.stream.LongStream;
 
 public class p27 extends ProblemBase {
-
-    public static Primes primes = new Primes();
 
     public Long execute() {
         long result;

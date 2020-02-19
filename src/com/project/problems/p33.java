@@ -1,6 +1,5 @@
 package com.project.problems;
 
-import com.project.util.Primes;
 import com.project.util.ProblemBase;
 
 import java.util.ArrayList;
@@ -8,8 +7,6 @@ import java.util.Collection;
 import java.util.stream.Collectors;
 
 public class p33 extends ProblemBase {
-
-    static Primes primes = new Primes();
 
     public Long execute() {
 

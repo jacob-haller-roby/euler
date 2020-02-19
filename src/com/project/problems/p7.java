@@ -1,13 +1,10 @@
 package com.project.problems;
 
-import com.project.util.Primes;
 import com.project.util.ProblemBase;
 
 import java.util.stream.IntStream;
 
 public class p7 extends ProblemBase {
-
-    private static Primes primes = new Primes();
 
     public Long execute() {
         IntStream.range(0,10001).forEach(i -> primes.getNextPrime());

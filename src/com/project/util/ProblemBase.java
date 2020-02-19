@@ -2,6 +2,7 @@ package com.project.util;
 
 public abstract class ProblemBase {
 
+    protected static Primes primes = new Primes();
     protected String name;
     protected Timer timer = new Timer();
     public String getName() {
