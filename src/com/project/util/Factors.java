@@ -16,7 +16,7 @@ public class Factors extends ArrayList<Long> {
         init(num);
     }
 
-    private void init(Long num) {
+    protected void init(Long num) {
         long upperBound = (long) Math.sqrt(num);
         for(long i = 2l; i <= upperBound; i++) {
             if (num % i == 0) {

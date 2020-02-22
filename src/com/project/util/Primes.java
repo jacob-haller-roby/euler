@@ -10,8 +10,22 @@ public class Primes extends ArrayList<Long> {
     }
 
     public void fillBelow(int i) {
+        fillBelow((long) i);
+    }
+    public void fillAbove(int i) {fillAbove((long) i);
+    }
+
+    public void fillBelow(long i) {
         while(largestPrime() < i) getNextPrime();
         pop();
+    }
+    public void fillAbove(long i) {
+        while(largestPrime() < i) getNextPrime();
+    }
+
+    public Long get(int i) {
+        while(size() <= i) getNextPrime();
+        return super.get(i);
     }
 
     public Long getNextPrime() {

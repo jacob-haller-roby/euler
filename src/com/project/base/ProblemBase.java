@@ -15,7 +15,8 @@ public abstract class ProblemBase {
     protected String name;
     protected Timer timer = new Timer();
 
-    protected FileQuotedList words;
+    protected File words;
+    protected File multiline;
 
     public String getName() {
         return name;
@@ -27,6 +28,9 @@ public abstract class ProblemBase {
         name = this.getClass().getSimpleName().replace("p","");
         if(File.exists(name)) {
             words = new FileQuotedList(name);
+        }
+        if(File.exists(name + "_multiline")) {
+            multiline = new File(name + "_multiline");
         }
     }
 }
