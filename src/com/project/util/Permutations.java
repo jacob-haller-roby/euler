@@ -40,9 +40,7 @@ public class Permutations {
     }
 
     public static ArrayList<ArrayList<Long>> transformLongArray(ArrayList<Long> numbers) {
-        ArrayList<ArrayList<Long>> result = transformLongArray(numbers, numbers.size());
-        System.out.println(result);
-        return result;
+        return transformLongArray(numbers, numbers.size());
     }
 
     public static ArrayList<ArrayList<Long>> transformLongArray(ArrayList<Long> numbers, int size) {
